@@ -1,21 +1,19 @@
-# Ignore everything
-*
-
-# Unignore .gitignore
+# Ignore everything in root
+/*
 !.gitignore
 
-# Unignore wp-content directory
-!wp-content/
+# Allow wp-content directory
+!/wp-content/
 
 # Ignore everything inside wp-content
-wp-content/*
+/wp-content/*
 
-# Unignore themes directory
-!wp-content/themes/
+# Allow themes directory
+!/wp-content/themes/
 
 # Ignore everything inside themes
-wp-content/themes/*
+/wp-content/themes/*
 
-# Unignore specific themes
-!wp-content/themes/mymedi/
-!wp-content/themes/mymedi-child/
+# Allow specific themes
+!/wp-content/themes/mymedi/
+!/wp-content/themes/mymedi-child/
